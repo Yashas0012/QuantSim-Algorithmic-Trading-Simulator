@@ -8,7 +8,7 @@
 
 ---
 
-## 📸 Overview
+##  Overview
 
 QuantSim is a full-stack quantitative finance simulator that lets you:
 - Run algorithmic trading strategies on realistic synthetic price data
@@ -18,22 +18,22 @@ QuantSim is a full-stack quantitative finance simulator that lets you:
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 📈 **MA Crossover** | Golden/death cross strategy with optimisable fast/slow windows |
-| 📉 **RSI Strategy** | Mean-reversion using Relative Strength Index |
-| 🔍 **Strategy Optimiser** | Grid search across parameters, ranked by Sharpe Ratio |
-| 🎲 **Monte Carlo Simulation** | 100 randomised market runs to model outcome distribution |
-| 🕯️ **Candlestick Chart** | OHLCV price chart with BUY/SELL markers plotted |
-| 📊 **Equity Curve** | Live portfolio value over time with starting capital baseline |
-| ⚡ **Kelly Criterion** | Mathematically optimal position sizing |
-| 🧮 **Risk Metrics** | Sharpe Ratio, Max Drawdown, Total Return |
+|  **MA Crossover** | Golden/death cross strategy with optimisable fast/slow windows |
+|  **RSI Strategy** | Mean-reversion using Relative Strength Index |
+|  **Strategy Optimiser** | Grid search across parameters, ranked by Sharpe Ratio |
+|  **Monte Carlo Simulation** | 100 randomised market runs to model outcome distribution |
+|  **Candlestick Chart** | OHLCV price chart with BUY/SELL markers plotted |
+|  **Equity Curve** | Live portfolio value over time with starting capital baseline |
+|  **Kelly Criterion** | Mathematically optimal position sizing |
+|  **Risk Metrics** | Sharpe Ratio, Max Drawdown, Total Return |
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 **1. Clone the repository**
 ```bash
@@ -53,7 +53,7 @@ streamlit run UI/App.py
 
 ---
 
-## 🎮 How to Use
+##  How to Use
 
 1. Open the app in your browser at `localhost:8501`
 2. Set your **starting capital** in the sidebar
@@ -89,7 +89,7 @@ QuantSim/
 
 ---
 
-## 📐 How It Works
+##  How It Works
 
 ### Data Generation
 Synthetic OHLCV price data is generated using **Geometric Brownian Motion** — the same mathematical model used in the Black-Scholes options pricing formula. Regime shifts in volatility and drift create realistic trending and ranging market conditions.
@@ -113,7 +113,7 @@ Replaces the naive fixed position size with a mathematically optimal fraction of
 
 ---
 
-## 📊 Metrics Explained
+##  Metrics Explained
 
 | Metric | Formula | What it means |
 |---|---|---|
@@ -123,7 +123,7 @@ Replaces the naive fixed position size with a mathematically optimal fraction of
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - Geometric Brownian Motion
 - Moving Average Crossover
@@ -136,7 +136,7 @@ Replaces the naive fixed position size with a mathematically optimal fraction of
 
 ---
 
-## 🛠 Built With
+##  Built With
 
 - [Python 3.10+](https://python.org)
 - [Streamlit](https://streamlit.io)
