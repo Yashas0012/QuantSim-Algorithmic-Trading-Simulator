@@ -1,5 +1,5 @@
 ```
-# ⬡ QuantSim — Algorithmic Trading Terminal
+#  QuantSim — Algorithmic Trading Terminal
 
 > A quantitative trading research platform built in Python and Streamlit. Simulate, optimise, and stress-test algorithmic trading strategies on synthetic market data — all from an interactive dark-mode terminal interface.
 
