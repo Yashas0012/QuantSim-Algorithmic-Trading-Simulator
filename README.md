@@ -1,4 +1,3 @@
-```
 #  QuantSim — Algorithmic Trading Terminal
 
 > A quantitative trading research platform built in Python and Streamlit. Simulate, optimise, and stress-test algorithmic trading strategies on synthetic market data — all from an interactive dark-mode terminal interface.
@@ -153,7 +152,7 @@ MIT — free to use, modify and distribute.
 
 ---
 
-## 👤 Author
+## 👤 Author(Yashas Chopra)
 
-Built as a work experience project exploring quantitative finance and algorithmic trading.
+Built as a work experience project whilst at IBM exploring quantitative finance and algorithmic trading.
 ```
